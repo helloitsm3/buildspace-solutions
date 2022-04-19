@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from "react";
 import { ethers } from "ethers";
+import abi from "./utils/WavePortal.json";
+import React, { useEffect, useState } from "react";
+
 import "./App.css";
-import contractABI from "./utils/WavePortal.json";
 
 const App = () => {
+    const contractABI = abi.abi;
     const [allWaves, setAllWaves] = useState([]);
     const [currentAccount, setCurrentAccount] = useState("");
     const contractAddress = "0x6B4516D243a102a70612A48a80c423f1db868cfA";
@@ -54,14 +56,14 @@ const App = () => {
         }
     };
 
-    const wave = async () => {
+    const wave = async (message) => {
         try {
             const { ethereum } = window;
 
             if (ethereum) {
                 const provider = new ethers.providers.Web3Provider(ethereum);
                 const signer = provider.getSigner();
-                const wavePortalContract = new ethers.Contract(contractAddress, contractABI.abi, signer);
+                const wavePortalContract = new ethers.Contract(contractAddress, contractABI, signer);
                 let count = await wavePortalContract.getTotalWaves();
                 console.log("Retrieved total wave count...", count.toNumber());
                 /*
@@ -151,7 +153,7 @@ const App = () => {
                     I am farza and I worked on self-driving cars so that's pretty cool right? Connect your Ethereum wallet and wave at me!
                 </div>
 
-                <button className="waveButton" onClick={wave}>
+                <button className="waveButton" onClick={() => wave("Hello World")}>
                     Wave at Me
                 </button>
 
