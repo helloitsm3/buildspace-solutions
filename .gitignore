@@ -1,0 +1,5 @@
+﻿.env
+node_modules
+package-lock.json
+artifacts
+cache
