@@ -1,0 +1,5 @@
+{
+    "solidity.defaultCompiler": "localNodeModule",
+    "solidity.compileUsingRemoteVersion": "v0.8.10+commit.fc410830",
+    "solidity.remappings": ["hardhat/=epic-nfts/node_modules/hardhat", "@openzeppelin/=epic-nfts/node_modules/@openzeppelin"]
+}
