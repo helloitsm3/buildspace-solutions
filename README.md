@@ -27,4 +27,6 @@
 
 ## Project Branches
 
--   [Build a Web3 App with Solidity + Ethereum Smart Contracts](https://github.com/helloitsm3/buildspace-solutions/tree/create-your-first-smart-contract) | [Project Link](https://app.buildspace.so/projects/CO02cf0f1c-f996-4f50-9669-cf945ca3fb0b)
+-   [Build a Web3 App with Solidity + Ethereum Smart Contracts](https://github.com/helloitsm3/buildspace-solutions/tree/create-your-first-smart-contract) | [Tutorial Link](https://app.buildspace.so/projects/CO02cf0f1c-f996-4f50-9669-cf945ca3fb0b)
+
+-   [Mint your own NFT collection and ship a Web3 app](https://github.com/helloitsm3/buildspace-solutions/tree/mint-your-own-nft) | [Tutorial Link](https://app.buildspace.so/projects/CO961ddb5f-f428-4608-9949-a9a2f461eb3f)
