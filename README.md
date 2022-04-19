@@ -1,7 +1,3 @@
-# buildspace-solutions
-
-## Instructions
-
 ### Windows
 
 ```sh
