@@ -1,0 +1,6 @@
+[build]
+  base = "Client/"
+
+[build.environment]
+  NODE_ENV = "production"
+  command = "CI= npm run build"
