@@ -1,0 +1,19 @@
+{
+    "name": "Omen",
+    "symbol": "",
+    "image": "0.png",
+    "properties": {
+        "files": [
+            {
+                "uri": "0.png",
+                "type": "image/png"
+            }
+        ],
+        "creators": [
+            {
+                "address": "8QxQema5PD2BqaBVuhxtTqDUH4PJ7vf6PmK99Mph7UZm",
+                "share": 100
+            }
+        ]
+    }
+}
