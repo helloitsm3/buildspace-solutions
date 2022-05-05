@@ -36,3 +36,5 @@
 -   [Build your own DAO with Javascript](https://github.com/helloitsm3/buildspace-solutions/tree/build-your-own-dao) | [Tutorial Link](https://buildspace.so/p/build-dao-with-javascript)
 
 -   [Ship your own custom NFT collection on Solana w/ Metaplex in a weekend](https://github.com/helloitsm3/buildspace-solutions/tree/solana-metaplex) | [Tutorial Link](https://buildspace.so/p/ship-solana-nft-collection)
+
+-   [Ship an epic Web3 app on Terra with Rust and React](https://github.com/helloitsm3/buildspace-solutions/tree/terra-clicker-game-solution) | [Tutorial Link](https://buildspace.so/p/ship-terra-web3-app)
