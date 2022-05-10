@@ -1,0 +1,34 @@
+{
+  "name": "turn-based-nft",
+  "version": "1.0.0",
+  "description": "A Turn-based NFT game by following tutorial on https://app.buildspace.so/courses/CO5cc2751b-e878-41c4-99fa-a614dc910ee9/lessons/LEe45360e9-f6d8-42f4-8b5b-3463c20181f6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://helloitsm3@gitlab.com/tuthub1/buildspace/turn-based-nft.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/tuthub1/buildspace/turn-based-nft/issues"
+  },
+  "homepage": "https://gitlab.com/tuthub1/buildspace/turn-based-nft#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.1",
+    "hardhat": "^2.6.8",
+    "prettier": "^2.4.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.18"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.2",
+    "dotenv": "^10.0.0"
+  }
+}
