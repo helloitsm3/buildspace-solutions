@@ -5,6 +5,9 @@
   "dependencies": {
     "@project-serum/anchor": "^0.18.0",
     "@solana/web3.js": "^1.30.2",
+    "@web3auth/web3auth": "0.11.0-alpha.0",
+    "@web3auth/solana-provider": "0.11.0-alpha.0",
+    "@web3auth/base": "0.11.0-alpha.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3"
