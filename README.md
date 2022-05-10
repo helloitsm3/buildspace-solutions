@@ -27,14 +27,16 @@
 
 ## Project Branches
 
--   [Build a Web3 App with Solidity + Ethereum Smart Contracts](https://github.com/helloitsm3/buildspace-solutions/tree/create-your-first-smart-contract) | [Tutorial Link](https://buildspace.so/p/build-solidity-web3-app)
+-   [Build a Web3 App with Solidity + Ethereum Smart Contracts](https://github.com/helloitsm3/buildspace-solutions/tree/create-your-first-smart-contract) | [Project](https://buildspace.so/p/build-solidity-web3-app)
 
--   [Mint your own NFT collection and ship a Web3 app](https://github.com/helloitsm3/buildspace-solutions/tree/mint-your-own-nft) | [Tutorial Link](https://buildspace.so/p/mint-nft-collection)
+-   [Mint your own NFT collection and ship a Web3 app](https://github.com/helloitsm3/buildspace-solutions/tree/mint-your-own-nft) | [Project](https://buildspace.so/p/mint-nft-collection)
 
--   [Build a Web3 app on Solana with React and Rust](https://github.com/helloitsm3/buildspace-solutions/tree/solana-web-app) | [Tutorial Link](https://buildspace.so/p/build-solana-web3-app)
+-   [Build a Web3 app on Solana with React and Rust](https://github.com/helloitsm3/buildspace-solutions/tree/solana-web-app) | [Project](https://buildspace.so/p/build-solana-web3-app)
 
--   [Build your own DAO with Javascript](https://github.com/helloitsm3/buildspace-solutions/tree/build-your-own-dao) | [Tutorial Link](https://buildspace.so/p/build-dao-with-javascript)
+-   [Build your own DAO with Javascript](https://github.com/helloitsm3/buildspace-solutions/tree/build-your-own-dao) | [Project](https://buildspace.so/p/build-dao-with-javascript)
 
--   [Ship your own custom NFT collection on Solana w/ Metaplex in a weekend](https://github.com/helloitsm3/buildspace-solutions/tree/solana-metaplex) | [Tutorial Link](https://buildspace.so/p/ship-solana-nft-collection)
+-   [Ship your own custom NFT collection on Solana w/ Metaplex in a weekend](https://github.com/helloitsm3/buildspace-solutions/tree/solana-metaplex) | [Project](https://buildspace.so/p/ship-solana-nft-collection)
 
--   [Ship an epic Web3 app on Terra with Rust and React](https://github.com/helloitsm3/buildspace-solutions/tree/terra-clicker-game-solution) | [Tutorial Link](https://buildspace.so/p/ship-terra-web3-app)
+-   [Ship an epic Web3 app on Terra with Rust and React](https://github.com/helloitsm3/buildspace-solutions/tree/terra-clicker-game-solution) | [Project](https://buildspace.so/p/ship-terra-web3-app)
+
+-   [Create your own mini turn-based NFT browser game](https://github.com/helloitsm3/buildspace-solutions/tree/create-turn-based-nft-game) | [Project](https://buildspace.so/p/create-turn-based-nft-game)
