@@ -33,13 +33,14 @@ const TEST_GIFS = [
   "https://steamuserimages-a.akamaihd.net/ugc/1482199559506861522/A6028E39EE1BB8A29817FD6A163ECD54462889A0/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true",
 ];
 
-const clientId = "BKPxkCtfC9gZ5dj-eg-W6yb5Xfr3XkxHuGZl2o2Bn8gKQ7UYike9Dh6c-_LaXlUN77x0cBoPwcSx-IVm0llVsLA";
+const clientId =
+  "BKPxkCtfC9gZ5dj-eg-W6yb5Xfr3XkxHuGZl2o2Bn8gKQ7UYike9Dh6c-_LaXlUN77x0cBoPwcSx-IVm0llVsLA";
 const chainConfig = {
   chainNamespace: CHAIN_NAMESPACES.SOLANA,
-  rpcTarget: "https://api.mainnet-beta.solana.com",
-  blockExplorer: "https://explorer.solana.com/",
-  chainId: "0x1",
-  displayName: "Solana Mainnet",
+  rpcTarget: "https://api.devnet.solana.com",
+  blockExplorer: "https://explorer.solana.com/?cluster=devnet",
+  chainId: "0x3",
+  displayName: "Solana Devnet",
   ticker: "SOL",
   tickerName: "Solana",
 };
@@ -75,8 +76,9 @@ const App = () => {
     try {
       const provider = await getProvider();
       const program = new Program(idl, programID, provider);
-      debugger;
-      const account = await program.account.baseAccount.fetch(baseAccount.publicKey);
+      const account = await program.account.baseAccount.fetch(
+        baseAccount.publicKey
+      );
 
       console.log("Got the account", account);
       setGifList(account.gifList);
@@ -110,7 +112,11 @@ const App = () => {
     const solanaWallet = new SolanaWallet(web3AuthProvider);
     const [publicKey] = await solanaWallet.requestAccounts();
     solanaWallet.publicKey = new PublicKey(publicKey);
-    const provider = new Provider(connection, solanaWallet, opts.preflightCommitment);
+    const provider = new Provider(
+      connection,
+      solanaWallet,
+      opts.preflightCommitment
+    );
     return provider;
   };
 
@@ -127,7 +133,10 @@ const App = () => {
         },
         signers: [baseAccount],
       });
-      console.log("Created a new BaseAccount w/ address:", baseAccount.publicKey.toString());
+      console.log(
+        "Created a new BaseAccount w/ address:",
+        baseAccount.publicKey.toString()
+      );
       await getGifList();
     } catch (error) {
       console.log("Error creating BaseAccount account:", error);
@@ -162,7 +171,10 @@ const App = () => {
     if (gifList === null) {
       return (
         <div className="connected-container">
-          <button className="cta-button submit-gif-button" onClick={createGifAccount}>
+          <button
+            className="cta-button submit-gif-button"
+            onClick={createGifAccount}
+          >
             Do One-Time Initialization For GIF Program Account
           </button>
         </div>
@@ -172,7 +184,12 @@ const App = () => {
     else {
       return (
         <div className="connected-container">
-          <input type="text" placeholder="Enter gif link!" value={inputValue} onChange={onInputChange} />
+          <input
+            type="text"
+            placeholder="Enter gif link!"
+            value={inputValue}
+            onChange={onInputChange}
+          />
           <button className="cta-button submit-gif-button" onClick={sendGif}>
             Submit
           </button>
@@ -194,7 +211,11 @@ const App = () => {
    * their wallet to our app yet.
    */
   const renderNotConnectedContainer = () => (
-    <button className="cta-button connect-wallet-button" onClick={connectWeb3Auth} disabled={isLoading}>
+    <button
+      className="cta-button connect-wallet-button"
+      onClick={connectWeb3Auth}
+      disabled={isLoading}
+    >
       {isLoading ? "Connecting..." : "Connect to Wallet"}
     </button>
   );
@@ -246,14 +267,21 @@ const App = () => {
       <div className={walletAddress ? "authed-container" : "container"}>
         <div className="header-container">
           <p className="header">🖼 GIF Portal</p>
-          <p className="sub-text">View your GIF collection in the metaverse ✨</p>
+          <p className="sub-text">
+            View your GIF collection in the metaverse ✨
+          </p>
           {/* Add the condition to show this only if we don't have a wallet address */}
           {!walletAddress && renderNotConnectedContainer()}
           {walletAddress && renderConnectedContainer()}
         </div>
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
-          <a className="footer-text" href={TWITTER_LINK} target="_blank" rel="noreferrer">{`built on @${TWITTER_HANDLE}`}</a>
+          <a
+            className="footer-text"
+            href={TWITTER_LINK}
+            target="_blank"
+            rel="noreferrer"
+          >{`built on @${TWITTER_HANDLE}`}</a>
         </div>
       </div>
     </div>
