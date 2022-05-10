@@ -33,8 +33,9 @@ const TEST_GIFS = [
   "https://steamuserimages-a.akamaihd.net/ugc/1482199559506861522/A6028E39EE1BB8A29817FD6A163ECD54462889A0/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true",
 ];
 
+// Register your app and get clientId from https://dashboard.web3auth.io
 const clientId =
-  "BKPxkCtfC9gZ5dj-eg-W6yb5Xfr3XkxHuGZl2o2Bn8gKQ7UYike9Dh6c-_LaXlUN77x0cBoPwcSx-IVm0llVsLA";
+  "BBv_C9-2bpk82YbRXr9djcqATdYUvb51XkA8uvTmycJCHcW1PLaPsm08L8tSJ0P9iewcMSngIa663uTdpsTgscA";
 const chainConfig = {
   chainNamespace: CHAIN_NAMESPACES.SOLANA,
   rpcTarget: "https://api.devnet.solana.com",
@@ -100,6 +101,12 @@ const App = () => {
       setWeb3AuthProvider(web3AuthProvider);
       setWalletAddress(publicKey);
     }
+  };
+
+  const logout = async () => {
+    await web3auth.logout();
+    setWeb3AuthProvider(null);
+    setWalletAddress("");
   };
 
   const onInputChange = (event) => {
@@ -184,15 +191,28 @@ const App = () => {
     else {
       return (
         <div className="connected-container">
-          <input
-            type="text"
-            placeholder="Enter gif link!"
-            value={inputValue}
-            onChange={onInputChange}
-          />
-          <button className="cta-button submit-gif-button" onClick={sendGif}>
-            Submit
-          </button>
+          <div className="flex-column">
+            <div>
+              <button className="cta-button submit-gif-button" onClick={logout}>
+                Logout
+              </button>
+            </div>
+            <div>
+              <input
+                type="text"
+                placeholder="Enter gif link!"
+                value={inputValue}
+                onChange={onInputChange}
+              />
+              <button
+                className="cta-button submit-gif-button"
+                onClick={sendGif}
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+
           <div className="gif-grid">
             {/* We use index as the key instead, also, the src is now item.gifLink */}
             {gifList.map((item, index) => (

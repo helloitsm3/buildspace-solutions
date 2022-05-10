@@ -128,3 +128,8 @@
 .connected-container button {
   height: 50px;
 }
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
