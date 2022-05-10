@@ -270,6 +270,14 @@ const App = () => {
           <p className="sub-text">
             View your GIF collection in the metaverse ✨
           </p>
+          {walletAddress && (
+            <p style={{ color: "#fff" }}>
+              Your public address:{" "}
+              {walletAddress ? walletAddress.toString() : ""}
+            </p>
+          )}
+          <p style={{ color: "#fff" }}>Network: {chainConfig.displayName}</p>
+
           {/* Add the condition to show this only if we don't have a wallet address */}
           {!walletAddress && renderNotConnectedContainer()}
           {walletAddress && renderConnectedContainer()}
