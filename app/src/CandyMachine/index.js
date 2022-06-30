@@ -254,61 +254,60 @@ const CandyMachine = ({ walletAddress }) => {
         // Get metadata about your deployed candy machine program
         const idl = await Program.fetchIdl(candyMachineProgram, provider);
 
-        console.log(idl);
-        // // Create a program that you can call
-        // const program = new Program(idl, candyMachineProgram, provider);
-        // // Fetch the metadata from your candy machine
-        // const candyMachine = await program.account.candyMachine.fetch(process.env.REACT_APP_CANDY_MACHINE_ID);
-        // // Parse out all our metadata and log it out
-        // const itemsAvailable = candyMachine.data.itemsAvailable.toNumber();
-        // const itemsRedeemed = candyMachine.itemsRedeemed.toNumber();
-        // const itemsRemaining = itemsAvailable - itemsRedeemed;
-        // const goLiveData = candyMachine.data.goLiveDate.toNumber();
-        // const presale =
-        //     candyMachine.data.whitelistMintSettings &&
-        //     candyMachine.data.whitelistMintSettings.presale &&
-        //     (!candyMachine.data.goLiveDate || candyMachine.data.goLiveDate.toNumber() > new Date().getTime() / 1000);
-        // // We will be using this later in our UI so let's generate this now
-        // // const goLiveDateTimeString = `${new Date(goLiveData * 1000).toGMTString()}`;
-        // const goLiveDateTimeString = `${new Date(goLiveData * 1000).toLocaleDateString()} @ ${new Date(
-        //     goLiveData * 1000
-        // ).toLocaleTimeString()}`;
-        // setCandyMachine({
-        //     id: process.env.REACT_APP_CANDY_MACHINE_ID,
-        //     program,
-        //     state: {
-        //         itemsAvailable,
-        //         itemsRedeemed,
-        //         itemsRemaining,
-        //         goLiveData,
-        //         goLiveDateTimeString,
-        //         isSoldOut: itemsRemaining === 0,
-        //         isActive:
-        //             (presale || candyMachine.data.goLiveDate.toNumber() < new Date().getTime() / 1000) &&
-        //             (candyMachine.endSettings
-        //                 ? candyMachine.endSettings.endSettingType.date
-        //                     ? candyMachine.endSettings.number.toNumber() > new Date().getTime() / 1000
-        //                     : itemsRedeemed < candyMachine.endSettings.number.toNumber()
-        //                 : true),
-        //         isPresale: presale,
-        //         goLiveDate: candyMachine.data.goLiveDate,
-        //         treasury: candyMachine.wallet,
-        //         tokenMint: candyMachine.tokenMint,
-        //         gatekeeper: candyMachine.data.gatekeeper,
-        //         endSettings: candyMachine.data.endSettings,
-        //         whitelistMintSettings: candyMachine.data.whitelistMintSettings,
-        //         hiddenSettings: candyMachine.data.hiddenSettings,
-        //         price: candyMachine.data.price,
-        //     },
-        // });
-        // console.log({
-        //     itemsAvailable,
-        //     itemsRedeemed,
-        //     itemsRemaining,
-        //     goLiveData,
-        //     goLiveDateTimeString,
-        //     presale,
-        // });
+        // Create a program that you can call
+        const program = new Program(idl, candyMachineProgram, provider);
+        // Fetch the metadata from your candy machine
+        const candyMachine = await program.account.candyMachine.fetch(process.env.REACT_APP_CANDY_MACHINE_ID);
+        // Parse out all our metadata and log it out
+        const itemsAvailable = candyMachine.data.itemsAvailable.toNumber();
+        const itemsRedeemed = candyMachine.itemsRedeemed.toNumber();
+        const itemsRemaining = itemsAvailable - itemsRedeemed;
+        const goLiveData = candyMachine.data.goLiveDate.toNumber();
+        const presale =
+            candyMachine.data.whitelistMintSettings &&
+            candyMachine.data.whitelistMintSettings.presale &&
+            (!candyMachine.data.goLiveDate || candyMachine.data.goLiveDate.toNumber() > new Date().getTime() / 1000);
+        // We will be using this later in our UI so let's generate this now
+        // const goLiveDateTimeString = `${new Date(goLiveData * 1000).toGMTString()}`;
+        const goLiveDateTimeString = `${new Date(goLiveData * 1000).toLocaleDateString()} @ ${new Date(
+            goLiveData * 1000
+        ).toLocaleTimeString()}`;
+        setCandyMachine({
+            id: process.env.REACT_APP_CANDY_MACHINE_ID,
+            program,
+            state: {
+                itemsAvailable,
+                itemsRedeemed,
+                itemsRemaining,
+                goLiveData,
+                goLiveDateTimeString,
+                isSoldOut: itemsRemaining === 0,
+                isActive:
+                    (presale || candyMachine.data.goLiveDate.toNumber() < new Date().getTime() / 1000) &&
+                    (candyMachine.endSettings
+                        ? candyMachine.endSettings.endSettingType.date
+                            ? candyMachine.endSettings.number.toNumber() > new Date().getTime() / 1000
+                            : itemsRedeemed < candyMachine.endSettings.number.toNumber()
+                        : true),
+                isPresale: presale,
+                goLiveDate: candyMachine.data.goLiveDate,
+                treasury: candyMachine.wallet,
+                tokenMint: candyMachine.tokenMint,
+                gatekeeper: candyMachine.data.gatekeeper,
+                endSettings: candyMachine.data.endSettings,
+                whitelistMintSettings: candyMachine.data.whitelistMintSettings,
+                hiddenSettings: candyMachine.data.hiddenSettings,
+                price: candyMachine.data.price,
+            },
+        });
+        console.log({
+            itemsAvailable,
+            itemsRedeemed,
+            itemsRemaining,
+            goLiveData,
+            goLiveDateTimeString,
+            presale,
+        });
     };
 
     return (
