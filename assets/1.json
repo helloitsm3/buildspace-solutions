@@ -1,7 +1,8 @@
 {
     "name": "Phoenix",
-    "symbol": "",
+    "symbol": "NB",
     "image": "1.png",
+    "seller_fee_basis_points": 500,
     "properties": {
         "files": [
             {

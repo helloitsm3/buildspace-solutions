@@ -3,20 +3,17 @@
     "version": "1.0.0",
     "private": true,
     "dependencies": {
-        "@metaplex/js": "4.7.0",
-        "@project-serum/anchor": "^0.18.2",
+        "@metaplex/js": "4.12.0",
+        "@project-serum/anchor": "0.18.2",
+        "@solana/wallet-adapter-base": "^0.9.7",
         "@solana/web3.js": "^1.30.2",
-        "@testing-library/jest-dom": "^5.11.4",
-        "@testing-library/react": "^11.1.0",
-        "@testing-library/user-event": "^12.1.10",
-        "dotenv": "^10.0.0",
-        "react": "^17.0.2",
-        "react-dom": "^17.0.2",
-        "react-scripts": "4.0.3",
-        "web-vitals": "^1.0.1"
+        "dotenv": "^16.0.1",
+        "react": "17.0.1",
+        "react-dom": "17.0.1",
+        "react-scripts": "4.0.3"
     },
     "scripts": {
-        "start": "react-scripts start",
+        "start": "CHOKIDAR_USEPOLLING=true react-scripts start",
         "build": "CI=false && react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
@@ -26,6 +23,12 @@
             "react-app",
             "react-app/jest"
         ]
+    },
+    "resolutions": {
+        "react-error-overlay": "6.0.9"
+    },
+    "overrides": {
+        "react-error-overlay": "6.0.9"
     },
     "browserslist": {
         "production": [
