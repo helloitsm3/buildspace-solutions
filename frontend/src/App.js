@@ -42,6 +42,7 @@ const App = () => {
     const fetchMints = async () => {
         try {
             const { ethereum } = window;
+
             if (ethereum) {
                 // You know all this
                 const provider = new ethers.providers.Web3Provider(ethereum);
@@ -105,6 +106,7 @@ const App = () => {
         if (!domain) {
             return;
         }
+
         // Alert the user if the domain is too short
         if (domain.length < 3) {
             alert("Domain must be at least 3 characters long");
