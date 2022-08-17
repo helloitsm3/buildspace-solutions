@@ -6,7 +6,7 @@ export default function Product({ product }) {
     const { id, name, price, description, image_url } = product;
 
     return (
-        <div className={styles.product_containter}>
+        <div className={styles.product_container}>
             <div>
                 <img className={styles.product_image} src={image_url} alt={name} />
             </div>
