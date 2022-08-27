@@ -42,3 +42,5 @@
 -   [Build your own domain service on a Polygon L2 in a weekend](https://github.com/helloitsm3/buildspace-solutions/tree/build-polygon-ens) | [Project](https://buildspace.so/p/build-polygon-ens)
 
 -   [Build your own store with Solana Pay](https://github.com/helloitsm3/buildspace-solutions/tree/solana-pay-solution) | [Project](https://buildspace.so/p/build-solana-pay-store)
+
+-   [Ship your own NFT collection on Flow](https://github.com/helloitsm3/buildspace-solutions/tree/nfts-on-flow) | [Project](https://buildspace.so/p/nfts-on-flow)
