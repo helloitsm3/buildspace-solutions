@@ -37,8 +37,6 @@
 
 -   [Ship your own custom NFT collection on Solana w/ Metaplex in a weekend](https://github.com/helloitsm3/buildspace-solutions/tree/solana-metaplex) | [Project](https://buildspace.so/p/ship-solana-nft-collection)
 
--   [Ship an epic Web3 app on Terra with Rust and React](https://github.com/helloitsm3/buildspace-solutions/tree/terra-clicker-game-solution) | [Project](https://buildspace.so/p/ship-terra-web3-app)
-
 -   [Create your own mini turn-based NFT browser game](https://github.com/helloitsm3/buildspace-solutions/tree/create-turn-based-nft-game) | [Project](https://buildspace.so/p/create-turn-based-nft-game)
 
 -   [Build your own domain service on a Polygon L2 in a weekend](https://github.com/helloitsm3/buildspace-solutions/tree/build-polygon-ens) | [Project](https://buildspace.so/p/build-polygon-ens)
