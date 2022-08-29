@@ -70,6 +70,8 @@ Running myepicproject code
 4. anchor test
 ```
 
+If you run into issues where your `solana address` is different. You need to reset your keypair to this `solana config set --keypair /home/[PC_NAME]/.config/solana/id.json`
+
 <!-- LICENSE -->
 <br />
 
