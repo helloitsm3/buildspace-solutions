@@ -7,3 +7,4 @@ pub fun main(acct: Address): [UInt64] {
 
   return publicRef.getIDs()
 }
+ 
