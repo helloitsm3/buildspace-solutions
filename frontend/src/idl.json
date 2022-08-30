@@ -1,86 +1,86 @@
 {
-  "version": "0.0.0",
-  "name": "myepicproject",
-  "instructions": [
-    {
-      "name": "startStuffOff",
-      "accounts": [
+    "version": "0.1.0",
+    "name": "myepicproject",
+    "instructions": [
         {
-          "name": "baseAccount",
-          "isMut": true,
-          "isSigner": true
+            "name": "startStuffOff",
+            "accounts": [
+                {
+                    "name": "baseAccount",
+                    "isMut": true,
+                    "isSigner": true
+                },
+                {
+                    "name": "user",
+                    "isMut": true,
+                    "isSigner": true
+                },
+                {
+                    "name": "systemProgram",
+                    "isMut": false,
+                    "isSigner": false
+                }
+            ],
+            "args": []
         },
         {
-          "name": "user",
-          "isMut": true,
-          "isSigner": true
-        },
-        {
-          "name": "systemProgram",
-          "isMut": false,
-          "isSigner": false
+            "name": "addGif",
+            "accounts": [
+                {
+                    "name": "baseAccount",
+                    "isMut": true,
+                    "isSigner": false
+                }
+            ],
+            "args": [
+                {
+                    "name": "gifLink",
+                    "type": "string"
+                }
+            ]
         }
-      ],
-      "args": []
-    },
-    {
-      "name": "addGif",
-      "accounts": [
+    ],
+    "accounts": [
         {
-          "name": "baseAccount",
-          "isMut": true,
-          "isSigner": false
-        }
-      ],
-      "args": [
-        {
-          "name": "gifLink",
-          "type": "string"
-        }
-      ]
-    }
-  ],
-  "accounts": [
-    {
-      "name": "BaseAccount",
-      "type": {
-        "kind": "struct",
-        "fields": [
-          {
-            "name": "totalGifs",
-            "type": "u64"
-          },
-          {
-            "name": "gifList",
+            "name": "BaseAccount",
             "type": {
-              "vec": {
-                "defined": "ItemStruct"
-              }
+                "kind": "struct",
+                "fields": [
+                    {
+                        "name": "totalGifs",
+                        "type": "u64"
+                    },
+                    {
+                        "name": "gifList",
+                        "type": {
+                            "vec": {
+                                "defined": "ItemStruct"
+                            }
+                        }
+                    }
+                ]
             }
-          }
-        ]
-      }
+        }
+    ],
+    "types": [
+        {
+            "name": "ItemStruct",
+            "type": {
+                "kind": "struct",
+                "fields": [
+                    {
+                        "name": "gifLink",
+                        "type": "string"
+                    },
+                    {
+                        "name": "userAddress",
+                        "type": "publicKey"
+                    }
+                ]
+            }
+        }
+    ],
+    "metadata": {
+        "address": "AMSVLcLZYP36SRZxuvr8RvqUpyCJ5GLSRouVt9ThmmVX"
     }
-  ],
-  "types": [
-    {
-      "name": "ItemStruct",
-      "type": {
-        "kind": "struct",
-        "fields": [
-          {
-            "name": "gifLink",
-            "type": "string"
-          },
-          {
-            "name": "userAddress",
-            "type": "publicKey"
-          }
-        ]
-      }
-    }
-  ],
-  "metadata": {
-    "address": "6VvuZvbLYgYoUup7WtPgm4TT7L1YUyGx6U8ExJJQzvGa"
-  }
 }
