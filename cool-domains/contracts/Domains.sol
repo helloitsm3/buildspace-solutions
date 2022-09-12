@@ -65,7 +65,7 @@ contract Domains is ERC721URIStorage {
 
         string memory _name = string(abi.encodePacked(name, ".", tld));
         string memory finalSvg = string(
-            abi.encodePacked(SVG_PART_ONE, _fqName, SVG_PART_TWO)
+            abi.encodePacked(SVG_PART_ONE, _name, SVG_PART_TWO)
          );
         uint256 newRecordId = _tokenIds.current();
         uint256 length = StringUtils.strlen(name);
