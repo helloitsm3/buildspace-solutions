@@ -46,3 +46,6 @@
 -   [Build your own store with Solana Pay](https://github.com/helloitsm3/buildspace-solutions/tree/solana-pay-solution) | [Project](https://buildspace.so/p/build-solana-pay-store)
 
 -   [Ship your own NFT collection on Flow](https://github.com/helloitsm3/buildspace-solutions/tree/nfts-on-flow) | [Project](https://buildspace.so/p/nfts-on-flow)
+
+-   [Master Solana in four weeks - Core 1](https://github.com/helloitsm3/buildspace-solutions/tree/solana-core/core1) | [Project](https://buildspace.so/p/solana-core)
+
