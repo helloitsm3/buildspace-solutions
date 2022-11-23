@@ -1,0 +1,28 @@
+{
+    "name": "Faithful Dog #11",
+    "symbol": "FDOG",
+    "description": "The Faithful Dogs are the most loyal and friendly dogs.",
+    "image": "10.jpg",
+    "attributes": [
+        {
+            "trait_type": "accessory",
+            "value": "black belt with bell"
+        },
+        {
+            "trait_type": "breed",
+            "value": "golden retriever"
+        },
+        {
+            "trait_type": "hair",
+            "value": "brown"
+        }
+    ],
+    "properties": {
+        "files": [
+            {
+                "uri": "10.jpg",
+                "type": "image/jpeg"
+            }
+        ]
+    }
+}

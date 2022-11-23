@@ -1,0 +1,24 @@
+{
+    "name": "Faithful Dog #6",
+    "symbol": "FDOG",
+    "description": "The Faithful Dogs are the most loyal and friendly dogs.",
+    "image": "5.jpg",
+    "attributes": [
+        {
+            "trait_type": "accesory",
+            "value": "heavy chain"
+        },
+        {
+            "trait_type": "breed",
+            "value": "westie"
+        }
+    ],
+    "properties": {
+        "files": [
+            {
+                "uri": "5.jpg",
+                "type": "image/jpeg"
+            }
+        ]
+    }
+}
