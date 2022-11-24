@@ -1,0 +1,27 @@
+name: Lint JavaScript
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  eslint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - uses: actions/cache@v2
+        with:
+          path: "node_modules"
+          key: ${{ runner.os }}-modules-${{ hashFiles('yarn.lock') }}
+
+      - name: Install modules
+        run: yarn install
+        working-directory: .
+
+      - name: Run formatting/lint
+        run: yarn lint
+        working-directory: .
