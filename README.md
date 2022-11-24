@@ -49,3 +49,13 @@
 
 -   [Master Solana in four weeks - Core 1](https://github.com/helloitsm3/buildspace-solutions/tree/solana-core/core1) | [Project](https://buildspace.so/p/solana-core)
 
+-   [Master Solana in four weeks - Core 2](https://github.com/helloitsm3/buildspace-solutions/tree/solana-core/core2) | [Project](https://buildspace.so/p/solana-core)
+
+-   [Master Solana in four weeks - Core 3](https://github.com/helloitsm3/buildspace-solutions/tree/solana-core/core3) | [Project](https://buildspace.so/p/solana-core)
+
+-   [Master Solana in four weeks - Core 4](https://github.com/helloitsm3/buildspace-solutions/tree/solana-core/core4) | [Project](https://buildspace.so/p/solana-core)
+
+-   [Master Solana in four weeks - Core 5](https://github.com/helloitsm3/buildspace-solutions/tree/solana-core/core5) | [Project](https://buildspace.so/p/solana-core)
+
+-   [Master Solana in four weeks - Core 6](https://github.com/helloitsm3/buildspace-solutions/tree/solana-core/core6) | [Project](https://buildspace.so/p/solana-core)
+
