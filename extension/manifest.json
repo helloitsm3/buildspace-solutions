@@ -17,6 +17,7 @@
 		"service_worker": "scripts/contextMenuServiceWorker.js"
 	},
 	"permissions": ["contextMenus", "tabs", "storage"],
+	"host_permissions": ["https://*/*"],
 	"content_scripts": [
 		{
 			"matches": ["http://*/*", "https://*/*"],
