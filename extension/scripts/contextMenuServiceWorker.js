@@ -95,10 +95,12 @@ const generateCompletionAction = async (info) => {
 };
 
 // Add this in scripts/contextMenuServiceWorker.js
-chrome.contextMenus.create({
-	id: "context-run",
-	title: "Generate blog post",
-	contexts: ["selection"],
+chrome.runtime.onInstalled.addListener(() => {
+	chrome.contextMenus.create({
+		id: "context-run",
+		title: "Generate blog post",
+		contexts: ["selection"],
+	});
 });
 
 // Add listener
