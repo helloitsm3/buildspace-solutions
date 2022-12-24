@@ -16,13 +16,13 @@
 <h2 align="center"> About This Repository </h2>
 
 <div align="center">
-  <p align="center">This repository contains the solution for all of the project hosted on Buildspace. If you notice any issue with the repository, feel free to contribute by creating a PR.</p>
-  
+<p align="center">This repository contains the solutions of Core 4 of Solana core project hosted on Buildspace. If you notice any issue with the repository, feel free to contribute by creating a PR.</p>
+
   <div>
     <a href="https://github.com/helloitsm3/buildspace-solutions/issues">Report Bugs</a>
-    ·
+    |
     <a href="https://github.com/helloitsm3/buildspace-solutions/issues">Request Feature</a>
-    </div>
+  </div>
 </div>
 
 <br />

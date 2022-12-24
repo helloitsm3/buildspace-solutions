@@ -1,0 +1,15 @@
+{
+    "name": "Faithful Dogs Collection",
+    "symbol": "FDOG",
+    "description": "Collection of 19 dogs seeking adoption for their loyality on the blockchain.",
+    "image": "collection.jpg",
+    "attributes": [],
+    "properties": {
+      "files": [
+        {
+          "uri": "collection.jpg",
+          "type": "image/jpeg"
+        }
+      ]
+    }
+  }
