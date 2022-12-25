@@ -1,0 +1,169 @@
+{
+  "program": {
+    "candyMachine": "12HxZg9TXwmsLtJisyAZRVZwfm4BJRPyB37WJjjUxdnH",
+    "candyMachineCreator": "GQm3kx5AFWiKh1qLuRVy7HF6vrRLjsCgmuYsMmaNjGr9",
+    "collectionMint": "4q6y5U7v6tTacFHfRygQtwDzA8mB1QS1P7ms95tjqnEm"
+  },
+  "items": {
+    "-1": {
+      "name": "Faithful Dogs Collection",
+      "image_hash": "9aa81878c8fb8d5364e45f18026e949d3f6e8cca3668cf21b19525466b2b06a9",
+      "image_link": "https://arweave.net/RM5iPPV8XrPdJMforUaOlAiv2pt3xtUokkoA2s6zzME?ext=jpg",
+      "metadata_hash": "3a6a7524d0127a248ff6bc1d5e7053839525d7aeaaefaa6af67e014128e3ab4b",
+      "metadata_link": "https://arweave.net/3qtnD35m4UAOOUR9xFNMiq-rcljOIRn35F7vMoNTSeM",
+      "onChain": true
+    },
+    "0": {
+      "name": "Faithful Dog #1",
+      "image_hash": "d070c59d0b77279b1ffde77e124a4a7333984794a5292d8d1b705d822c2a29bd",
+      "image_link": "https://arweave.net/mhFCIoILyGxlL71MoiJur_UcOwJcF9N1x8vkz6fDnWA?ext=jpg",
+      "metadata_hash": "89a3e280ff706b51fc1110737bee7d1aa9624c18e74973899482e5e9a6abef24",
+      "metadata_link": "https://arweave.net/gE3W_l-KTSbEchweoYxfDnEFnYwy2UZmUEiG99K5hUo",
+      "onChain": true
+    },
+    "1": {
+      "name": "Faithful Dog #2",
+      "image_hash": "aac8f2070c6fae403984f42b585f8f4b891a5ad93533988cd01befea12a8033b",
+      "image_link": "https://arweave.net/j3X9vojqo41lm2mz4D1hBPfGMcrY1zAHygeWoBR7g1M?ext=jpg",
+      "metadata_hash": "6a1b3b5fec1ead0c8684820839e30d4bfb6bafff97e39239db5efd9fa2936fcb",
+      "metadata_link": "https://arweave.net/IwzB4tP1WrPgpMumJx2uLJh3xdBz2S6K_bJazMJlg-Y",
+      "onChain": true
+    },
+    "2": {
+      "name": "Faithful Dog #3",
+      "image_hash": "661e842c8f6cd3f45ec35e131e900f0f18b8545fce7cd5152cf7b49aa18b215e",
+      "image_link": "https://arweave.net/Zt24q3KN3ChCeAh7n8cZ9FYeAIntEzJ53ei6Tcj8Ax4?ext=jpg",
+      "metadata_hash": "62e5344679edd52ee7908ebde02f7c695e61db0b8c5a46cd9f0db5741356592b",
+      "metadata_link": "https://arweave.net/0BPIINPKWTAk7vNpTAaem1MTlBmp3bcYOGEJ_nMSLLU",
+      "onChain": true
+    },
+    "3": {
+      "name": "Faithful Dog #4",
+      "image_hash": "e7648ef734c35071a95713612554313ceb103c112b30191097ce103fa5399165",
+      "image_link": "https://arweave.net/vZmmxuBJUYMtD719-t6wbad8mMBJdnPpXkJ1hKEhnhI?ext=jpg",
+      "metadata_hash": "e0e9144bdb79e0da35ab9cc1c50485304292f302408dfe1a42a4248de43dd4ca",
+      "metadata_link": "https://arweave.net/30A1eyFxx_aIIwUMQstxh3EvDp2tObasGVYeT--mTDE",
+      "onChain": true
+    },
+    "4": {
+      "name": "Faithful Dog #5",
+      "image_hash": "f12c30af7578b3b32d3123e204c34e166d8ec8def5cfe6a3ad33760fb8f1c795",
+      "image_link": "https://arweave.net/lZNxioA1bLAhRMb5W3KBTQVLvWBooFMMSKlzbgbkF3E?ext=jpg",
+      "metadata_hash": "8fac0ce66dba5005f4a90ab18d9aa011a5d4d46fefdbb78206e47c9648af5118",
+      "metadata_link": "https://arweave.net/mDarhEHTbWMh6gP9Kh4G-UcmwrTuSxVY57eDa3Vkt70",
+      "onChain": true
+    },
+    "5": {
+      "name": "Faithful Dog #6",
+      "image_hash": "f016fdb4035588f04ca8514bf0b7dd96d54bafd22acf8cc253273d8990e56d15",
+      "image_link": "https://arweave.net/9XCvgNWx-Hv99pscgTuH5eFVOWw4ANXKi_Gmz0i_ccU?ext=jpg",
+      "metadata_hash": "feb61bd017a6f59ab4f1a8fa98175dd76ecba72d8667eeb8763825e6be688d3b",
+      "metadata_link": "https://arweave.net/go6Rvyaq9pQEA2S0Ol1xug7PXxgYa680JeGS_Xj7GJE",
+      "onChain": true
+    },
+    "6": {
+      "name": "Faithful Dog #7",
+      "image_hash": "1414d85987447ba8427cb9b782e76b00ca65e24dc0425a26b9ca127bc0c67296",
+      "image_link": "https://arweave.net/Ot2mow4oAHVCjq5XqXrNO1EXmy1avoEKgGP_yUJx3XU?ext=jpg",
+      "metadata_hash": "ea7ac031b846b366822218ff5bbb1cf6b752e5bc6ee594c656f8d874c053e06b",
+      "metadata_link": "https://arweave.net/Ir2n_FZ9uyR1E8voK8zvM3CAD4_Lx7N1FmMZ75pIQxs",
+      "onChain": true
+    },
+    "7": {
+      "name": "Faithful Dog #8",
+      "image_hash": "30a562848cc5b92265e05f78a8d4335a470729c0885a7a50d5f01c7463bb5e68",
+      "image_link": "https://arweave.net/Cpwj0QaShTAPr0JFqupM4zsAdsH2xLjJoSPTBiqhPLg?ext=jpg",
+      "metadata_hash": "8f5dd032b71ff760f8c3637c97461d0492a5087357745b34b4d26a295a250d02",
+      "metadata_link": "https://arweave.net/m8YNvPZBysNDo-LE1dEKjFVS2AUD0N01e2jz9bbZYFM",
+      "onChain": true
+    },
+    "8": {
+      "name": "Faithful Dog #9",
+      "image_hash": "8b10c500e9a62b24549cc9ce6f5cd049a3240a392500450c7b7440e8bc8236bc",
+      "image_link": "https://arweave.net/t_tj61dUyf2eBIQe89GS7RQssnVwozI1OYzYl6tXPdU?ext=jpg",
+      "metadata_hash": "1e4114fec06ca9f8f55940a9546aaca696c2d7e8520559dd49fc1d576c0397af",
+      "metadata_link": "https://arweave.net/Qt6uZ13n9CBwJlqinBfRobdcXmly0e6JxOVfGZvkLfk",
+      "onChain": true
+    },
+    "9": {
+      "name": "Faithful Dog #10",
+      "image_hash": "35c547fa76c153682c91ddc9a46e2fbc45b4c85f6d05980acd877c0d5cbc494d",
+      "image_link": "https://arweave.net/icFoIOBss-bWzeRcIKNg2EpsnFwuHRl06-cQTmERpy0?ext=jpg",
+      "metadata_hash": "f922aac2821152b46e10eda0f123b9219e36e4112a4ce8c00e778366fffb724f",
+      "metadata_link": "https://arweave.net/SSSHdo2nKTjBwTyP-IZwi0M5e9HFLR90367ZUMBgAZ8",
+      "onChain": true
+    },
+    "10": {
+      "name": "Faithful Dog #11",
+      "image_hash": "b45d7f21d95af8097eeab79b73de486714155ef9a5fa3c8d35d5bbb1ed884d12",
+      "image_link": "https://arweave.net/7XKooFfZJdSsRDYs7m_Bxsg5gTpZ3osDE84qzukOtLc?ext=jpg",
+      "metadata_hash": "fdb7b25cc851f8d016edb6feb2604c7652eca813ccaf08abaef62479b4a6bc96",
+      "metadata_link": "https://arweave.net/4oUVx0Z0hbIWWSlorU3VUPAs5oY3NIoRxyVfCoKeiEM",
+      "onChain": true
+    },
+    "11": {
+      "name": "Faithful Dog #12",
+      "image_hash": "1e8fd35da7ed39af004ac8732ea8372fcdd0fbfff9d67ce51f753c5487883154",
+      "image_link": "https://arweave.net/xuBnyjaxDEGFAv5eLYmotMz_fj6kJgToPGXhfyroaHk?ext=jpg",
+      "metadata_hash": "56b92a7522de2d86714ea69bbb8b3087d97eade58815e49ab544b096b4abea09",
+      "metadata_link": "https://arweave.net/k3jXDrqGYHzj6yDzJBtFqzgIjWIlh0DQaa2nuPrLTG8",
+      "onChain": true
+    },
+    "12": {
+      "name": "Faithful Dog #13",
+      "image_hash": "3682035889ec8419349e694945156aef325afdf9dfbb97085f6352db3955d7a9",
+      "image_link": "https://arweave.net/qfpbTraWyuO0uiezjhwGhm62tyBy4Yit92Oyuo9gwZQ?ext=jpg",
+      "metadata_hash": "9145e7b8c301ccafc2dd7b957122448ef44c379a872778bf13fac62378d89bdd",
+      "metadata_link": "https://arweave.net/nuLtKvqhyoanIZllz2_BJGbaUSB48Isz3Ha0RXDk56A",
+      "onChain": true
+    },
+    "13": {
+      "name": "Faithful Dog #14",
+      "image_hash": "9a510acff5063d5a81008141b86580db7f8e8ab98afff0e0d97c8af70d6398df",
+      "image_link": "https://arweave.net/30EczVpWG0spyTiArq2jLEaD96rKMkiP6fXvQf4v5FM?ext=jpg",
+      "metadata_hash": "8e907d07cdefccb40944b37fed7ade34b211a09e6d173a7b026726d775b2bd9f",
+      "metadata_link": "https://arweave.net/eNIH3l6_6Icxd8rxc4XbTkfVZer_azCS_-NtgLNNsII",
+      "onChain": true
+    },
+    "14": {
+      "name": "Faithful Dog #15",
+      "image_hash": "49ffc791860b2ce6a916055783f6a31f85cb50d4418cdef33884d513380b7c0d",
+      "image_link": "https://arweave.net/0FN3IjzC3es0s7j9QPcv3vzNfMY4bffKpxsztqua1E8?ext=jpg",
+      "metadata_hash": "518d726aa2169e89da7c11edf9694043a7c87560a722eb90cce9ea034fe3bb26",
+      "metadata_link": "https://arweave.net/UI4vljX8NWx4NM2ZTW25j7gh9W1AM7qP-MUEwnTx0jk",
+      "onChain": true
+    },
+    "15": {
+      "name": "Faithful Dog #16",
+      "image_hash": "3830f521cf7281391c0395b77dfd84a29efe6eab52b072b2e503b833dcc09459",
+      "image_link": "https://arweave.net/CTlquA5FLrOm_BfGY_ii471XVYW9z9HFko2_vq9Qqy0?ext=jpg",
+      "metadata_hash": "6c697c2d450b8ea41c7df5efb70c0b418cc566059da93fb7fd40c14cfcf745c0",
+      "metadata_link": "https://arweave.net/49AZALCI3JKSfKU2XTVmeoDuSLUn8uv6TCmnookpS4c",
+      "onChain": true
+    },
+    "16": {
+      "name": "Faithful Dog #17",
+      "image_hash": "3682035889ec8419349e694945156aef325afdf9dfbb97085f6352db3955d7a9",
+      "image_link": "https://arweave.net/fq7sjpW_gQvbIe8_t1Fploo0uUftcRep3geAuUaaUY4?ext=jpg",
+      "metadata_hash": "87636354fe6ff2f3eeb75d683ff61eaf403f349748f6c5099bc5eb9b2c06a980",
+      "metadata_link": "https://arweave.net/AdFqmREQvnun4jfMSis8w-gNkf4QL21BBJm2fXcEWjY",
+      "onChain": true
+    },
+    "17": {
+      "name": "Faithful Dog #18",
+      "image_hash": "49ffc791860b2ce6a916055783f6a31f85cb50d4418cdef33884d513380b7c0d",
+      "image_link": "https://arweave.net/-fIdbQZBXCRZjfZJFDyajs0gG0kIZqIBWkDjZPc6LVg?ext=jpg",
+      "metadata_hash": "75620cba6c7dd0542b0796a3308649a858a1091df40816cbc901678e72f8c4cf",
+      "metadata_link": "https://arweave.net/5SjsEbwtNgna7hOPBhERsvRLnz0TjIogrEEIJ6-7bL0",
+      "onChain": true
+    },
+    "18": {
+      "name": "Faithful Dog #19",
+      "image_hash": "3830f521cf7281391c0395b77dfd84a29efe6eab52b072b2e503b833dcc09459",
+      "image_link": "https://arweave.net/jw9n9r8KSz32YZBUS9dFbaRXuAoYrTTnK6nnKMYR4lM?ext=jpg",
+      "metadata_hash": "27443ef6476ff525936e2a97aa72ccf29b4b062f2bd6a6f005a77a8de96b6048",
+      "metadata_link": "https://arweave.net/38NyJpaFbXT12dkJ3PI6Rd1pH8oZvxgs28y39i3UInI",
+      "onChain": true
+    }
+  }
+}
