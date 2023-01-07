@@ -4,6 +4,7 @@ import {
   Web3Button,
   useContract,
   useNFTBalance,
+  useNetwork,
 } from "@thirdweb-dev/react";
 import { ChainId } from "@thirdweb-dev/sdk";
 import { useState, useEffect, useMemo } from "react";
@@ -45,7 +46,6 @@ const App = () => {
   };
 
   const [proposals, setProposals] = useState([]);
-  const [isVoting, setIsVoting] = useState(false);
   const [hasVoted, setHasVoted] = useState(false);
 
   // Retrieve all our existing proposals from the contract.
