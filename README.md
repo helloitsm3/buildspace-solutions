@@ -47,7 +47,7 @@ Running the frontend code
 3. npm run start
 ```
 
-Running the smart contract
+Running the smart contract in just 4 step
 
 ```sh
 1. cd cool-domains
