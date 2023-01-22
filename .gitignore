@@ -1,2 +1,3 @@
 ﻿app/yarn.lock
 *.log
+app/.netlify
