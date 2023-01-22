@@ -1,20 +1,20 @@
 {
-    "name": "Phoenix",
-    "symbol": "NB",
-    "image": "1.png",
-    "seller_fee_basis_points": 500,
-    "properties": {
-        "files": [
-            {
-                "uri": "1.png",
-                "type": "image/png"
-            }
-        ],
-        "creators": [
-            {
-                "address": "8QxQema5PD2BqaBVuhxtTqDUH4PJ7vf6PmK99Mph7UZm",
-                "share": 100
-            }
-        ]
+  "name": "Number #0002",
+  "symbol": "NB",
+  "description": "Collection of 10 numbers on the blockchain. This is the number 1/10.",
+  "image": "0.png",
+  "attributes": [
+    {
+      "trait_type": "Number",
+      "value": "0"
     }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "0.png",
+        "type": "image/png"
+      }
+    ]
+  }
 }

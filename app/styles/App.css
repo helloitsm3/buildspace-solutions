@@ -110,6 +110,12 @@
     height: 50px;
 }
 
+.button-container {
+    display: flex;
+    padding: 30px 0;
+    justify-content: center;
+}
+
 /* KeyFrames */
 @-webkit-keyframes gradient-animation {
     0% {

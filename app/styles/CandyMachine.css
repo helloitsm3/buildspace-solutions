@@ -31,3 +31,12 @@
     border-radius: 10px;
     object-fit: cover;
 }
+
+.timer-container .timer-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.timer-container .timer-value {
+    font-size: 18px;
+}

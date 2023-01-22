@@ -1,45 +1,27 @@
 {
-    "name": "candy-drop",
-    "version": "1.0.0",
+    "name": "nextjsapp",
+    "version": "0.1.0",
     "private": true,
-    "dependencies": {
-        "@metaplex/js": "4.12.0",
-        "@project-serum/anchor": "0.18.2",
-        "@solana/wallet-adapter-base": "^0.9.7",
-        "@solana/web3.js": "^1.30.2",
-        "dotenv": "^16.0.1",
-        "react": "17.0.1",
-        "react-dom": "17.0.1",
-        "react-scripts": "4.0.3"
-    },
     "scripts": {
-        "start": "CHOKIDAR_USEPOLLING=true react-scripts start",
-        "build": "CI=false && react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
     },
-    "eslintConfig": {
-        "extends": [
-            "react-app",
-            "react-app/jest"
-        ]
+    "dependencies": {
+        "@project-serum/anchor": "^0.26.0",
+        "@solana/spl-token": "0.3.7",
+        "@solana/wallet-adapter-base": "^0.9.20",
+        "@solana/wallet-adapter-react": "^0.15.28",
+        "@solana/wallet-adapter-react-ui": "^0.9.27",
+        "@solana/wallet-adapter-wallets": "^0.19.10",
+        "@solana/web3.js": "^1.73.0",
+        "next": "13.1.4",
+        "react": "18.2.0",
+        "react-dom": "18.2.0"
     },
-    "resolutions": {
-        "react-error-overlay": "6.0.9"
-    },
-    "overrides": {
-        "react-error-overlay": "6.0.9"
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
+    "devDependencies": {
+        "eslint": "8.32.0",
+        "eslint-config-next": "13.1.4"
     }
 }

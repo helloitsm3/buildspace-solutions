@@ -1,18 +1,27 @@
 {
-    "price": 0.1,
-    "number": 3,
-    "gatekeeper": null,
-    "solTreasuryAccount": "H85RSQ6rNFftgyzFj4JTmpJFKFQKHxUdNgEjXEQRSwHR",
-    "splTokenAccount": null,
-    "splToken": null,
-    "goLiveDate": "25 Dec 2022 00:00:00 GMT",
-    "endSettings": null,
-    "whitelistMintSettings": null,
-    "hiddenSettings": null,
-    "storage": "arweave",
-    "ipfsInfuraProjectId": null,
-    "ipfsInfuraSecret": null,
-    "awsS3Bucket": null,
-    "noRetainAuthority": false,
-    "noMutable": false
+  "price": 0.01,
+  "number": 3,
+  "gatekeeper": null,
+  "creators": [
+    {
+      "address": "HiWBRstgp7CaHFB9CqhPAw2dMbam4dCq77J1Vck6edqs",
+      "share": 100
+    }
+  ],
+  "solTreasuryAccount": "HiWBRstgp7CaHFB9CqhPAw2dMbam4dCq77J1Vck6edqs",
+  "splTokenAccount": null,
+  "splToken": null,
+  "goLiveDate": "2022-05-02T18:00:00+00:00",
+  "endSettings": null,
+  "whitelistMintSettings": null,
+  "hiddenSettings": null,
+  "freezeTime": null,
+  "uploadMethod": "bundlr",
+  "retainAuthority": true,
+  "isMutable": true,
+  "symbol": "NB",
+  "sellerFeeBasisPoints": 1,
+  "awsConfig": null,
+  "nftStorageAuthToken": null,
+  "shdwStorageAccount": null
 }
