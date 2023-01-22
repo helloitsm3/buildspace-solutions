@@ -33,7 +33,7 @@ export default function Buy({ itemID }) {
   // Fetch the transaction object from the server (done to avoid tampering)
   const processTransaction = async () => {
     setLoading(true);
-    const txResponse = await fetch("../api/createTransaction", {
+    const txResponse = await fetch("/api/createTransaction", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -44,10 +44,13 @@ export default function Buy({ itemID }) {
 
     const tx = Transaction.from(Buffer.from(txData.transaction, "base64"));
     console.log("Tx data is", tx);
+
     // Attempt to send the transaction to the network
     try {
       const txHash = await sendTransaction(tx, connection);
-      console.log(`Transaction sent: https://solscan.io/tx/${txHash}?cluster=devnet`);
+      console.log(
+        `Transaction sent: https://solscan.io/tx/${txHash}?cluster=devnet`
+      );
       setStatus(STATUS.Submitted);
     } catch (error) {
       console.error(error);
@@ -79,7 +82,10 @@ export default function Buy({ itemID }) {
         try {
           const result = await findReference(connection, orderID);
           console.log("Finding tx reference", result.confirmationStatus);
-          if (result.confirmationStatus === "confirmed" || result.confirmationStatus === "finalized") {
+          if (
+            result.confirmationStatus === "confirmed" ||
+            result.confirmationStatus === "finalized"
+          ) {
             clearInterval(interval);
             setStatus(STATUS.Paid);
             addOrder(order);
@@ -128,7 +134,11 @@ export default function Buy({ itemID }) {
       {item ? (
         <IPFSDownload hash={item.hash} filename={item.filename} />
       ) : (
-        <button disabled={loading} className="buy-button" onClick={processTransaction}>
+        <button
+          disabled={loading}
+          className="buy-button"
+          onClick={processTransaction}
+        >
           Buy now 🠚
         </button>
       )}

@@ -5,7 +5,6 @@ import styles from "../styles/CreateProduct.module.css";
 const client = create("https://ipfs.infura.io:5001/api/v0");
 
 const CreateProduct = () => {
-
   const [newProduct, setNewProduct] = useState({
     name: "",
     price: "",
@@ -32,7 +31,7 @@ const CreateProduct = () => {
     try {
       // Combine product data and file.name
       const product = { ...newProduct, ...file };
-      console.log("Sending product to api",product);
+      console.log("Sending product to api", product);
       const response = await fetch("../api/addProduct", {
         method: "POST",
         headers: {
@@ -43,11 +42,9 @@ const CreateProduct = () => {
       const data = await response.json();
       if (response.status === 200) {
         alert("Product added!");
-      }
-      else{
+      } else {
         alert("Unable to add product: ", data.error);
       }
-
     } catch (error) {
       console.log(error);
     }
@@ -88,7 +85,7 @@ const CreateProduct = () => {
                 }}
               />
             </div>
-            
+
             <div className={styles.flex_row}>
               <input
                 className={styles.input}
@@ -98,7 +95,7 @@ const CreateProduct = () => {
                   setNewProduct({ ...newProduct, image_url: e.target.value });
                 }}
               />
-            </div>      
+            </div>
             <textarea
               className={styles.text_area}
               placeholder="Description here..."

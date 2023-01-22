@@ -22,9 +22,18 @@ async function post(req, res) {
     const newOrder = req.body;
 
     // If this address has not purchased this item, add order to orders.json
-    if (!orders.find((order) => order.buyer === newOrder.buyer.toString() && order.itemID === newOrder.itemID)) {
+    if (
+      !orders.find(
+        (order) =>
+          order.buyer === newOrder.buyer.toString() &&
+          order.itemID === newOrder.itemID
+      )
+    ) {
       orders.push(newOrder);
-      await writeFile("./pages/api/orders.json", JSON.stringify(orders, null, 2));
+      await writeFile(
+        "./pages/api/orders.json",
+        JSON.stringify(orders, null, 2)
+      );
       res.status(200).json(orders);
     } else {
       res.status(400).send("Order already exists");
